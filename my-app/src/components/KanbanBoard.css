@@ -1,0 +1,92 @@
+.kanban-board {
+  padding: 10px;
+  background: #e9ecef;
+  border-radius: 8px;
+}
+
+.controls {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.columns {
+  display: flex;
+  gap: 15px;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+}
+
+.column h2 {
+  color: rgb(7, 0, 0);
+  padding: 8px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.ticket {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 10px;
+  transition: box-shadow 0.2s;
+}
+
+.ticket:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ticket h3 {
+  margin: 0 0 6px;
+  font-size: 0.9rem;
+}
+
+.tags {
+  display: flex;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.tag {
+  background: #28a745;
+  color: white;
+  border-radius: 3px;
+  padding: 2px 5px;
+  font-size: 0.7rem;
+}
+
+.display-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.dropdown-group {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.dropdown-group label {
+  margin-right: 5px;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  min-height: 200px;
+}
+
+.column h2 {
+  color: rgb(23, 6, 6);
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
